@@ -1,0 +1,28 @@
+extends ../blocks/default
+
+block content
+  .appartments
+    .middle-wrapper
+      p.h1
+        | Задание №1
+      .appartments_inner
+        .appartments_block
+          p.appartments_title
+            | ID всех квартир:
+          div.appartments_wrapper
+            ul.appartments_list.appartments_list__all
+        .appartments_block
+          p.appartments_title
+            | ID забронированных квартир:
+          div.appartments_wrapper
+            ul.appartments_list.appartments_list__reserved
+        .appartments_block
+          p.appartments_title
+            | ID свободных квартир:
+          div.appartments_wrapper
+            ul.appartments_list.appartments_list__vacant
+  .agency-fees
+    .middle-wrapper
+      p.h1
+        | Задание №2
+      .agency-fees_inner
